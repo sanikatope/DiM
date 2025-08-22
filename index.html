@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Voyage Vista - Explore Your Next Adventure</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0; background: #f0f8ff; color: #333;
+    }
+    header {
+      background: #008080;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1 {
+      color: #004d4d;
+    }
+    .hero {
+      position: relative;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      height: 350px;
+      border-radius: 10px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+      margin-bottom: 2rem;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background: rgba(0, 128, 128, 0.6);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+    }
+    section.features {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    section.features article {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      flex: 1 1 30%;
+      min-width: 250px;
+      text-align: center;
+    }
+    section.features img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.8rem;
+      height: 150px;
+      object-fit: cover;
+    }
+    footer {
+      background: #004d4d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+      section.features {
+        flex-direction: column;
+      }
+      section.features article {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <h1>Voyage Vista</h1>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h2>Explore Your Next Adventure</h2>
+    </div>
+
+    <section class="features">
+      <article>
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=600&q=80" alt="Beautiful Beaches" />
+        <h3>Stunning Beaches</h3>
+        <p>Discover the world's most breathtaking beaches, perfect for relaxing and adventure alike.</p>
+      </article>
+
+      <article>
+        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80" alt="Mountain Adventures" />
+        <h3>Mountain Adventures</h3>
+        <p>From hiking to skiing, our mountain destinations offer thrills for every outdoor enthusiast.</p>
+      </article>
+
+      <article>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Cultural Experiences" />
+        <h3>Cultural Experiences</h3>
+        <p>Immerse yourself in rich traditions, local cuisine, and unique festivals around the world.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Voyage Vista &nbsp; | &nbsp; Contact: info@voyagevista.com &nbsp; | &nbsp; +1 (555) 123-4567
+  </footer>
+</body>
+</html>
