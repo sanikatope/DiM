@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sanikatope.github.io/DiM/sitemap.xml
